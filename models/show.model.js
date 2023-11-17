@@ -19,13 +19,16 @@ const showSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
+    seatConfiguration: {
+        type: String,
+    },
     price: {
         type: Number,
         required: true
     },
     format: {
         type: String
-    }
+    },
 }, {timestamps: true});
 
 const Show = mongoose.model('Show', showSchema);

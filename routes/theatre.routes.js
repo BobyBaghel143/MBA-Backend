@@ -68,3 +68,8 @@ const routes = (app) => {
 }
 
 module.exports = routes;
+
+
+
+
+// mongodb+srv://boby9758650:I59ZqkEnvrQ4235H@cluster0.lxlk49g.mongodb.net/?retryWrites=true&w=majority
